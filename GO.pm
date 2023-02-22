@@ -170,7 +170,7 @@ sub parse_data {
     if ($key eq "ID") {
       $transcript_id = $value;
     } elsif ($key eq "Ontology_term") {
-      $go = $value;
+      $go = [ split /,/, $value ];
     }
   }
   
