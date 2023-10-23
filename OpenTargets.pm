@@ -43,7 +43,8 @@ limitations under the License.
  at trait-associated loci and identification of potential drug targets.
 
  Data from Open Targets Genetics includes locus-to-gene (L2G) scores to predict
- causal genes at GWAS loci.
+ causal genes at GWAS loci. Please download their data from:
+ http://ftp.ebi.ac.uk/pub/databases/opentargets/genetics/22.09/OTGenetics_VEP/
 
  Options are passed to the plugin as key=value pairs:
    file : (mandatory) Tabix-indexed file from Open Targets Genetics
